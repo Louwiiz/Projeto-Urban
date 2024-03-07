@@ -31,5 +31,11 @@ body {
     border-bottom: 60px solid #454444;
     border-radius: 10px;
 }
-
+h3 {
+    color: white;
+    size: 30px;
+}
+h3:hover {
+    color: green;
+}
 
