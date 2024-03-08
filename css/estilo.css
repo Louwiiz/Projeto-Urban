@@ -1,41 +1,41 @@
 @charset "utf-8";
-/*Criando regras usando o fluxo de trabalho do MOBILE FIRST - 320px
-
-OBS: As regras aqui criadas também servirão para o site como um todo, ou seja, independente do tamanho da minha tela.*/
+/* Criando regras usando o fluxo de trabalho do MOBILE FIRST - 320px
+OBS: As regras aqui criadas também servirão para o site como um todo, ou seja, independente do tamanho da minha tela. */
 
 body {
-
     font-family: sans-serif;
     background-image: url(/projeto-urban-main/assets/Rectangle\ 119.jpg);
     background-attachment: fixed;
 }
+
 .femininas {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
-    
-    
 }
 
 .meninas {
-    width: 30%; 
-    margin: 10px; 
-    text-align: center; 
-    
-    
+    width: 90%; /* Largura ocupando 90% do contêiner pai */
+    margin: 10px auto; 
+    max-width: 300px; /* Largura máxima de 300px */
 }
 
 .meninas img {
     display: block;
     margin: 0 auto;
+    width: 100%; /* Imagem ocupando toda a largura do contêiner */
+    max-width: 100%; /* Imagem não ultrapassando a largura do contêiner */
     border-bottom: 60px solid #454444;
     border-radius: 10px;
 }
+
 h3 {
     color: white;
-    size: 30px;
+    position: relative;
+    top: -60px;
+    text-align: center;
+   
 }
 h3:hover {
     color: green;
 }
-
